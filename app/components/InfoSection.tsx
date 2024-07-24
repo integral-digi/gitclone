@@ -60,15 +60,19 @@ const InfoSection = () => {
                                 </p>
                                 <motion.section
                                     className="relative flex items-center space-x-1"
+                                    initial="rest"
                                     whileHover="hover"
+                                    animate="rest"
                                 >
                                     <Link href={feature.linkUrl} passHref>
                                         <p className="font-bold text-base text-white relative">
                                             {feature.linkText}
                                             <motion.span
                                                 className="absolute left-0 bottom-0 h-[0.125rem] bg-white w-full origin-left"
-                                                initial={{ scaleX: 0 }}
-                                                whileHover={{ scaleX: 1 }}
+                                                variants={{
+                                                    rest: { scaleX: 0 },
+                                                    hover: { scaleX: 1 }
+                                                }}
                                                 transition={{ duration: 0.3 }}
                                             />
                                         </p>
