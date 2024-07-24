@@ -6,7 +6,7 @@ import { motion } from "framer-motion";
 
 export const sectionContent = {
     header: "The ultimate GUI Git client",
-    subHeader: "for streamlining and enhancing your local code management process",
+    subHeader: " for streamlining and enhancing your local code management process",
     features: [
         {
             title: "Review code changes with precision",
