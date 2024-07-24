@@ -16,14 +16,35 @@
   }
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+@layer base {
+
+  @font-face {
+    font-family: "MonaSans-Regular";
+    src: url("/fonts/MonaSans-Regular.otf");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "MonaSans-Medium";
+    src: url("/fonts/MonaSans-Medium.otf");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "MonaSans-Bold";
+    src: url("/fonts/MonaSans-Bold.otf");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "MonaSans-Black";
+    src: url("/fonts/MonaSans-Black.otf");
+    font-weight: 900;
+    font-style: normal;
+  }
 }
 
 @layer utilities {
