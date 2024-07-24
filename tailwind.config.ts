@@ -11,7 +11,7 @@ const config: Config = {
       fontFamily: {
         normal: ['MonaSans-Regular', 'system-ui'],
         medium: ['MonaSans-Medium', 'system-ui'],
-        semibold: ['MonaSans-Semibold', 'system-ui'],
+        semibold: ['MonaSans-SemiBold', 'system-ui'],
         bold: ['MonaSans-Bold', 'system-ui'],
         black: ['MonaSans-Black', 'system-ui'],
       },
