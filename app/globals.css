@@ -16,6 +16,10 @@
   }
 }
 
+body > main > section.space-y-20.bg-\[\#0d1117\] > section:nth-child(2) > section > section.w-full.flex.items-start.justify-between > section.w-\[35\%\] > ul {
+  padding: 0 !important;
+}
+
 @layer base {
 
   @font-face {
@@ -33,9 +37,16 @@
   }
 
   @font-face {
+    font-family: "MonaSans-Semibold";
+    src: url("/fonts/MonaSans-Semibold.otf");
+    font-weight: 600;
+    font-style: normal;
+  }
+
+  @font-face {
     font-family: "MonaSans-Bold";
     src: url("/fonts/MonaSans-Bold.otf");
-    font-weight: 600;
+    font-weight: 700;
     font-style: normal;
   }
 
