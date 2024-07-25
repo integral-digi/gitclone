@@ -30,7 +30,7 @@ const CTA = () => {
                                 className={`w-fit h-12 flex items-center justify-center space-x-1 px-4 rounded-md md:w-full ${
                                     index === 0
                                         ? "bg-white text-zinc-950"
-                                        : "bg-transparent border border-zinc-400 text-white"
+                                        : "bg-transparent border border-zinc-400 text-white hover:bg-[#161b22] hover:border-white hover:border-2 hover:ease-in-out"
                                 }`}
                                 onClick={() => router.replace(button.href)}
                             >
